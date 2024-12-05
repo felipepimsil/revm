@@ -3,10 +3,7 @@ use crate::{
     primitives::{AccountInfo, Address, Bytecode, B256, U256},
 };
 use alloy_eips::BlockId;
-use alloy_provider::{
-    network::{BlockResponse, HeaderResponse},
-    Network, Provider,
-};
+use alloy_provider::{network::BlockResponse, Network, Provider};
 use alloy_transport::{Transport, TransportError};
 use std::future::IntoFuture;
 use tokio::runtime::{Handle, Runtime};
