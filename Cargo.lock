@@ -3261,10 +3261,10 @@ dependencies = [
 name = "revm-database"
 version = "1.0.0"
 dependencies = [
- "alloy-eips 0.4.2",
- "alloy-provider 0.4.2",
+ "alloy-eips 0.7.3",
+ "alloy-provider 0.7.3",
  "alloy-sol-types",
- "alloy-transport 0.4.2",
+ "alloy-transport 0.7.3",
  "anyhow",
  "auto_impl",
  "criterion",
